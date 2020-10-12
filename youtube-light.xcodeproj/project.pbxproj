@@ -13,6 +13,9 @@
 		7BAC6BEA253382EF00D0B6A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BAC6BE8253382EF00D0B6A5 /* Main.storyboard */; };
 		7BAC6BEC253382F100D0B6A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7BAC6BEB253382F100D0B6A5 /* Assets.xcassets */; };
 		7BAC6BEF253382F100D0B6A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BAC6BED253382F100D0B6A5 /* LaunchScreen.storyboard */; };
+		7BB3BA3E2534C448002B6905 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BB3BA3D2534C448002B6905 /* Constants.swift */; };
+		7BB3BA412534CA1A002B6905 /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BB3BA402534CA1A002B6905 /* Video.swift */; };
+		7BB3BA442534CA81002B6905 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BB3BA432534CA81002B6905 /* Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		7BAC6BEB253382F100D0B6A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7BAC6BEE253382F100D0B6A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7BAC6BF0253382F100D0B6A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7BB3BA3D2534C448002B6905 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		7BB3BA402534CA1A002B6905 /* Video.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
+		7BB3BA432534CA81002B6905 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +65,9 @@
 				7BAC6BE2253382EF00D0B6A5 /* AppDelegate.swift */,
 				7BAC6BE4253382EF00D0B6A5 /* SceneDelegate.swift */,
 				7BAC6BE6253382EF00D0B6A5 /* ViewController.swift */,
+				7BB3BA3D2534C448002B6905 /* Constants.swift */,
+				7BB3BA402534CA1A002B6905 /* Video.swift */,
+				7BB3BA432534CA81002B6905 /* Model.swift */,
 				7BAC6BE8253382EF00D0B6A5 /* Main.storyboard */,
 				7BAC6BEB253382F100D0B6A5 /* Assets.xcassets */,
 				7BAC6BED253382F100D0B6A5 /* LaunchScreen.storyboard */,
@@ -140,6 +149,9 @@
 				7BAC6BE7253382EF00D0B6A5 /* ViewController.swift in Sources */,
 				7BAC6BE3253382EF00D0B6A5 /* AppDelegate.swift in Sources */,
 				7BAC6BE5253382EF00D0B6A5 /* SceneDelegate.swift in Sources */,
+				7BB3BA442534CA81002B6905 /* Model.swift in Sources */,
+				7BB3BA3E2534C448002B6905 /* Constants.swift in Sources */,
+				7BB3BA412534CA1A002B6905 /* Video.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
