@@ -19,16 +19,6 @@ class VideoTableViewCell: UITableViewCell {
     
     var video: Video?
     
-    override func awakeFromNib() {
-        super.awakeFromNib()
-        // Initialization code
-    }
-
-    override func setSelected(_ selected: Bool, animated: Bool) {
-        super.setSelected(selected, animated: animated)
-
-        // Configure the view for the selected state
-    }
     
     func setCell(_ v: Video) {
         self.video = v
@@ -42,7 +32,6 @@ class VideoTableViewCell: UITableViewCell {
         
         let df = DateFormatter()
         df.dateFormat = "EEEE, MMM d, yyyy"
-        
         self.dateLabel.text = df.string(from: video!.published)
         
         guard self.video?.thumbnail != nil else {
